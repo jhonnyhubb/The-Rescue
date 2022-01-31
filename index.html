@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rescue</title>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="container">
+        <div id="backgroundGame">
+            <div id="beginning" onclick="start()">
+                <h1>The Rescue</h1>
+                <p>press "W" for the helicopter to up, press "S" for the helicopter to down and press "D" for the helicopter to shoot.</p>
+                <p>click here to start!!!</p>
+            </div>
+        </div>
+    </div>
+    <!-- sounds do jogo !-->
+    <audio src="sounds/sound.mp3" preload="auto" id="soundDisparo"></audio>
+    <audio src="sounds/explosion.mp3" preload="auto" id="soundExplosion"></audio>
+    <audio src="sounds/music_background.mp3" preload="auto" id="music"></audio>
+    <audio src="sounds/gameover.mp3" preload="auto" id="soundGameover"></audio>
+    <audio src="sounds/lost.mp3" preload="auto" id="soundLost"></audio>	
+    <audio src="sounds/rescue.mp3" preload="auto" id="soundRescue"></audio>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
